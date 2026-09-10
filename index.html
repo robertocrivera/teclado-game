@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeHero 2.0 - Aventura de Mecanografía</title>
+  
+  <!-- Carga de la fuente Fredoka con soporte de grosor 900 para títulos grandes -->
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700;900&display=swap" rel="stylesheet">
+  
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0f172a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Fredoka', Arial, sans-serif;
+      color: white;
+    }
+    #game-container {
+      width: 900px;
+      height: 600px;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      background-color: #1e293b;
+      position: relative;
+    }
+  </style>
+
+  <!-- CDN Motor Phaser 3 -->
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser.min.js"></script>
+</head>
+<body>
+
+  <!-- Contenedor del Juego 2D -->
+  <div id="game-container"></div>
+
+  <!-- Scripts del Core -->
+  <script src="src/core/VoiceEngine.js"></script>
+  <script src="src/core/DifficultyAdapter.js"></script>
+  <script src="src/core/ProgressManager.js"></script>
+
+  <!-- Entidades del Juego (Cargar antes de las escenas) -->
+  <script src="src/game/entities/VisualKeyboard.js"></script>
+
+  <!-- Escenas de Phaser -->
+  <script src="src/game/scenes/BootScene.js"></script>
+  <script src="src/game/scenes/MenuScene.js"></script>
+  <script src="src/game/scenes/WorldMapScene.js"></script>
+  <script src="src/game/scenes/GameplayScene.js"></script>
+  <script src="src/game/scenes/ShopScene.js"></script>
+
+  <!-- Configuración e Inicialización -->
+  <script src="src/game/PhaserConfig.js"></script>
+  <script>
+    window.onload = () => {
+      // Inicia el juego automáticamente al cargar la página
+      new Phaser.Game(phaserConfig);
+    };
+  </script>
+</body>
+</html>

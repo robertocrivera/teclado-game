@@ -1,0 +1,39 @@
+{
+  "age_groups": {
+    "6_years": {
+      "title": "Exploradores de la Fila Guía",
+      "levels": [
+        {
+          "id": 1,
+          "name": "Fila Guía Básica",
+          "voice_intro": "Nivel 1: Presiona las teclas indicadas en pantalla.",
+          "words": ["fa", "ja", "da", "ka", "salsa"],
+          "finger_map": {
+            "f": "índice izquierdo",
+            "j": "índice derecho",
+            "d": "medio izquierdo",
+            "k": "medio derecho",
+            "a": "meñique izquierdo",
+            "s": "anular izquierdo",
+            "l": "anular derecho"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Misión Frases y Palabras Dobles",
+          "voice_intro": "¡Excelente! Ahora completaremos secuencias con dos palabras.",
+          "words": ["ala dada", "salsa faja", "cada ala"],
+          "finger_map": {
+            "a": "meñique izquierdo",
+            "l": "anular derecho",
+            "d": "medio izquierdo",
+            "f": "índice izquierdo",
+            "j": "índice derecho",
+            "s": "anular izquierdo",
+            " ": "dedo pulgar"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "rewards": [
+    {
+      "id": "avatar_robot",
+      "name": "RoboHero",
+      "required_stars": 3,
+      "icon": "assets/images/avatar_robot.png"
+    },
+    {
+      "id": "avatar_dino",
+      "name": "DinoEscribano",
+      "required_stars": 6,
+      "icon": "assets/images/avatar_dino.png"
+    },
+    {
+      "id": "badge_speedster",
+      "name": "Velocidad Relámpago",
+      "required_stars": 10,
+      "icon": "assets/images/badge_lightning.png"
+    }
+  ]
+}

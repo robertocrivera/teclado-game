@@ -1,0 +1,26 @@
+{
+  "name": "typehero-game",
+  "version": "2.0.0",
+  "description": "Videojuego educativo de mecanografía infantil adaptativo con Phaser 3",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1",
+    "dev": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "typing",
+    "mecanografia",
+    "phaser3",
+    "education",
+    "kids",
+    "game"
+  ],
+  "author": "TypeHero Team",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

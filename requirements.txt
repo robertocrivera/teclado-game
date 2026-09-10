@@ -1,0 +1,9 @@
+#python -m http.server 8000
+#python -m venv venvs\teclado_game_env
+#.\venvs\teclado_gameo_env\Scripts\Activate.ps1
+#pip install -r requirements.txt
+
+
+# Servidor web optimizado y generador de assets opcional
+Flask==3.0.2
+Pillow==10.2.0
